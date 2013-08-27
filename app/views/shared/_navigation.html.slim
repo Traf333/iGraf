@@ -1,0 +1,17 @@
+nav.main-navigation
+  = render 'shared/button-bar'
+  .brand
+    = link_to image_tag('brand.png'), root_path
+  ul.nav-list
+    .nav-item.active
+      = link_to "#"
+        li ABOUT
+    .divider
+    .nav-item
+      = link_to "#"
+        li SUPPORT
+    .divider
+    .nav-item
+      = link_to "#"
+        li DEMO
+

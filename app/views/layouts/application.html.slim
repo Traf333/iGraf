@@ -7,33 +7,7 @@ html
     = csrf_meta_tags
   body
     .container
-      nav.main-navigation
-        .btn-bar
-          button
-            i.icon-large.icon-facebook
-          button
-            i.icon-large.icon-linkedin
-          button
-            i.icon-large.icon-twitter
-            .count 15
-          button.red
-            i.icon-large.icon-google-plus
-            .count 19
-        .brand
-          = link_to image_tag('brand.png'), root_path
-        ul.nav-list
-          .nav-item.active
-            = link_to "#"
-              li ABOUT
-          .divider
-          .nav-item
-            = link_to "#"
-              li SUPPORT
-          .divider
-          .nav-item
-            = link_to "#"
-              li DEMO
-
+      = render 'shared/navigation'
       section.banner
         .banner-image
           .image-left
