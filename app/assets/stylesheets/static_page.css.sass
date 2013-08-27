@@ -1,0 +1,161 @@
+$lightBlue:  #62dbe2
+$containerWidth: 1060px
+$btnColor: #fff!default
+body
+  margin: 0
+  background: image-url('bach_head1.jpg') repeat-x 100% top
+.container
+  background: url('phone.png') no-repeat left bottom, image-url('back_head.jpg') no-repeat center top
+  width: $containerWidth
+  height: 660px
+  margin: auto
+  //background: image-url('back_head.jpg')
+.clear
+  clear: both
+.main-navigation
+  padding: 10px
+  height: 80px
+  .brand
+    float: left
+    margin-right: 40px
+    padding-top: 20px
+  .nav-list
+    margin-top: 30px
+    font-size: 18px
+    font-weight: bold
+    list-style: none
+    .nav-item, .divider
+      display: inline-block
+
+    .nav-item
+      padding: 0 30px
+      &.active
+        padding-bottom: 4px
+        border-bottom: 4px solid #28a6b6
+    .divider
+      background-color: #ccc
+      padding-left: 1px
+      height: 16px
+      margin: 0 5px
+    a
+      color: #fff
+      &:hover
+        color: $lightBlue
+
+a
+  color: $lightBlue
+  text-decoration: none
+  &:hover
+    text-decoration: underline
+    color: darken(#62dbe2, 10%)
+section.banner
+  margin: 170px 0 0 450px
+  .image-left
+    float: left
+    margin-right: 30px
+  .image-right
+    padding-top: 20px
+  .banner-text
+    margin-left: 20px
+    clear: left
+    width: 450px
+    color: #2f5578
+    font-size: 26px
+    font-weight: bold
+  .banner-links
+    margin-left: 20px
+    .link-left
+      float: left
+    .link-right
+      margin-left: 220px
+    .watch-video
+      background: url('watch_video.png')
+      display: block
+      width: 189px
+      height: 68px
+      text-indent: -9999px
+      &:hover
+        background-position: 0 -202px
+    .appstore
+      background: url('appstore.png')
+      display: block
+      width: 225px
+      height: 68px
+      text-indent: -9999px
+      &:hover
+        background-position: 0 -203px
+
+.second_menu
+  background: url('hover_2-nd_menu_bottom.png') no-repeat center top, url('2-nd_menu_back.png') repeat-x 100%
+  height: 100px
+  nav
+    text-align: center
+    li
+      padding: 10px
+      display: inline-block
+      width: 200px
+      img
+        -webkit-transition: all .2s ease-in-out
+        -moz-transition: all .2s ease-in-out
+        transition: all .2s ease-in-out
+        height: 100px
+      &:first-child
+        margin-left: 13px
+      &:hover
+        img
+          -webkit-transform: translate(0, -5px)
+          -moz-transform: translate(0, -5px)
+          transform: translate(0, -5px)
+        background: url('hover_2-nd_menu.png') no-repeat center top
+.content-container
+  background-color: #f5f5f5
+  padding: 20px 0
+  border-bottom: 2px solid #ccc
+  border-top: 2px solid #ccc
+.content
+  text-align: justify
+  margin: auto
+  width: 700px
+  p
+    text-indent: 25px
+  h2
+    color: darken($lightBlue, 20%)
+  .date
+    color: #ccc
+.footer
+  height: 60px
+  width: $containerWidth
+  margin: 15px auto
+  .footer-email
+    margin-top: 10px
+    float: right
+
+@mixin button
+  padding: 5px 20px
+  margin: 10px
+  background-color: $btnColor
+  border-radius: 10px
+  border: 1px solid darken($btnColor, 15%)
+  &:active
+    box-shadow: inset 1px 1px 3px darken($btnColor, 15%)
+  &:hover
+    background-color: darken($btnColor, 15%)
+  a
+    color: $lightBlue
+    text-shadow: inset 1px 1px 1px #fff
+    text-decoration: none
+.btn-bar
+  float: right
+  margin-top: 15px
+
+  button
+    font-weight: bold
+    padding: 5px 15px
+    margin: 10px 5px
+    .count
+      display: inline-block
+      margin-left: 10px
+  .icon-facebook, .icon-linkedin
+    color: #4a6e95
+  .icon-twitter
+    color: $lightBlue

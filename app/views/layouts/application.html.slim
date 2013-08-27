@@ -1,0 +1,71 @@
+doctype html
+html 
+  head
+    title IGraf
+    = stylesheet_link_tag    "application", :media =>  "all"
+    = javascript_include_tag "application"
+    = csrf_meta_tags
+  body
+    .container
+      nav.main-navigation
+        .btn-bar
+          button
+            i.icon-large.icon-facebook
+          button
+            i.icon-large.icon-linkedin
+          button
+            i.icon-large.icon-twitter
+            .count 15
+          button.red
+            i.icon-large.icon-google-plus
+            .count 19
+        .brand
+          = link_to image_tag('brand.png'), root_path
+        ul.nav-list
+          .nav-item.active
+            = link_to "#"
+              li ABOUT
+          .divider
+          .nav-item
+            = link_to "#"
+              li SUPPORT
+          .divider
+          .nav-item
+            = link_to "#"
+              li DEMO
+
+      section.banner
+        .banner-image
+          .image-left
+            = image_tag 'banner_icon.png'
+          .image-right
+            = image_tag 'logo-large.png'
+        .banner-text
+          p
+            | Тезис для банера, который коротко объясняет суть приложения
+        .banner-links
+          .link-left
+            = link_to "Просмотр видео", "#", class: "watch-video"
+          .link-right
+            = link_to "Appstore", "#", class: "appstore "
+    section.second_menu
+      nav
+        li.icon-2x.first
+          = image_tag 'banner_icon.png'
+          div About
+        li.icon-2x.second
+          = image_tag 'sheet.png'
+          div Support
+        li.icon-2x.third
+          = image_tag 'demo.png'
+          div Demo
+      .content-container
+        .content
+          == yield
+      footer
+        .footer
+          .footer-email
+            = mail_to "info@igraf.site"
+          .copyright
+            = link_to "Developer", "#"
+            div © Copyright 2013
