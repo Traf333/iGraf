@@ -4,17 +4,35 @@
     <list default="true" id="9ecb0140-5f55-43a3-a5e0-15daa506779b" name="Default" comment="" />
     <ignored path="IGraf.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Gemfile" changelist="9ecb0140-5f55-43a3-a5e0-15daa506779b" time="1377440948017" ignored="false" />
-    <file path="$USER_HOME$/plantner/.idea/workspace.xml" changelist="9ecb0140-5f55-43a3-a5e0-15daa506779b" time="1377586569539" ignored="false" />
-    <file path="/routes.rb" changelist="9ecb0140-5f55-43a3-a5e0-15daa506779b" time="1377565084541" ignored="false" />
+    <file path="/Gemfile" changelist="9ecb0140-5f55-43a3-a5e0-15daa506779b" time="1377591863985" ignored="false" />
+    <file path="$USER_HOME$/plantner/.idea/workspace.xml" changelist="9ecb0140-5f55-43a3-a5e0-15daa506779b" time="1377603888342" ignored="false" />
+    <file path="/routes.rb" changelist="9ecb0140-5f55-43a3-a5e0-15daa506779b" time="1377600173562" ignored="false" />
     <file path="/application.html.slim" changelist="9ecb0140-5f55-43a3-a5e0-15daa506779b" time="1377586332802" ignored="false" />
     <file path="/static_page.css.sass" changelist="9ecb0140-5f55-43a3-a5e0-15daa506779b" time="1377585891742" ignored="false" />
-    <file path="/Dummy.txt" changelist="9ecb0140-5f55-43a3-a5e0-15daa506779b" time="1377444885677" ignored="false" />
-    <file path="$USER_HOME$/plantner/app/views/catalogs/_plant_items.html.slim" changelist="9ecb0140-5f55-43a3-a5e0-15daa506779b" time="1377565047276" ignored="false" />
-    <file path="/_plant_items.html.slim" changelist="9ecb0140-5f55-43a3-a5e0-15daa506779b" time="1377565047276" ignored="false" />
-    <file path="$USER_HOME$/plantner/config/routes.rb" changelist="9ecb0140-5f55-43a3-a5e0-15daa506779b" time="1377565085677" ignored="false" />
+    <file path="/Dummy.txt" changelist="9ecb0140-5f55-43a3-a5e0-15daa506779b" time="1377597377755" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/catalogs/_plant_items.html.slim" changelist="9ecb0140-5f55-43a3-a5e0-15daa506779b" time="1377600188615" ignored="false" />
+    <file path="/_plant_items.html.slim" changelist="9ecb0140-5f55-43a3-a5e0-15daa506779b" time="1377592039383" ignored="false" />
+    <file path="$USER_HOME$/plantner/config/routes.rb" changelist="9ecb0140-5f55-43a3-a5e0-15daa506779b" time="1377600174875" ignored="false" />
     <file path="/main.html.slim" changelist="9ecb0140-5f55-43a3-a5e0-15daa506779b" time="1377586465768" ignored="false" />
     <file path="/_navigation.html.slim" changelist="9ecb0140-5f55-43a3-a5e0-15daa506779b" time="1377586482897" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/controllers/plant_items_controller.rb" changelist="9ecb0140-5f55-43a3-a5e0-15daa506779b" time="1377600155312" ignored="false" />
+    <file path="/plant_items_controller.rb" changelist="9ecb0140-5f55-43a3-a5e0-15daa506779b" time="1377592239746" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/models/plant_item.rb" changelist="9ecb0140-5f55-43a3-a5e0-15daa506779b" time="1377601756549" ignored="false" />
+    <file path="/plant_item.rb" changelist="9ecb0140-5f55-43a3-a5e0-15daa506779b" time="1377601754806" ignored="false" />
+    <file path="$USER_HOME$/plantner/config/application.rb" changelist="9ecb0140-5f55-43a3-a5e0-15daa506779b" time="1377597279729" ignored="false" />
+    <file path="/application.rb" changelist="9ecb0140-5f55-43a3-a5e0-15daa506779b" time="1377592436043" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/models/plant_price.rb" changelist="9ecb0140-5f55-43a3-a5e0-15daa506779b" time="1377600771167" ignored="false" />
+    <file path="/plant_price.rb" changelist="9ecb0140-5f55-43a3-a5e0-15daa506779b" time="1377599584555" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/models/price_import.rb" changelist="9ecb0140-5f55-43a3-a5e0-15daa506779b" time="1377598189561" ignored="false" />
+    <file path="/price_import.rb" changelist="9ecb0140-5f55-43a3-a5e0-15daa506779b" time="1377598189180" ignored="false" />
+    <file path="/a.dummy" changelist="9ecb0140-5f55-43a3-a5e0-15daa506779b" time="1377597479322" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/controllers/price_imports_controller.rb" changelist="9ecb0140-5f55-43a3-a5e0-15daa506779b" time="1377599665369" ignored="false" />
+    <file path="/price_imports_controller.rb" changelist="9ecb0140-5f55-43a3-a5e0-15daa506779b" time="1377598430347" ignored="false" />
+    <file path="/new.html.slim" changelist="9ecb0140-5f55-43a3-a5e0-15daa506779b" time="1377599061610" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/price_imports/new.html.slim" changelist="9ecb0140-5f55-43a3-a5e0-15daa506779b" time="1377599715179" ignored="false" />
+    <file path="$USER_HOME$/plantner/db/schema.rb" changelist="9ecb0140-5f55-43a3-a5e0-15daa506779b" time="1377599893404" ignored="false" />
+    <file path="$USER_HOME$/plantner/app/views/shared/_profile_menu.html.slim" changelist="9ecb0140-5f55-43a3-a5e0-15daa506779b" time="1377600872028" ignored="false" />
+    <file path="/_profile_menu.html.slim" changelist="9ecb0140-5f55-43a3-a5e0-15daa506779b" time="1377599456673" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,10 +61,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="28" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0">
+            <state line="26" column="9" selection-start="584" selection-end="584" vertical-scroll-proportion="0.52579033">
               <folding />
             </state>
           </provider>
@@ -88,15 +106,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="static_page.css.sass" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/static_page.css.sass">
           <provider selected="true" editor-type-id="text-editor">
@@ -118,7 +127,6 @@
       <list>
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/static_page.css.scss" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/font-awesome.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/static_page.css.sass" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.slim" />
@@ -126,6 +134,7 @@
         <option value="$PROJECT_DIR$/app/views/static_page/main.html.slim" />
         <option value="$PROJECT_DIR$/app/views/shared/_navigation.html.slim" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -725,13 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="28" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/font-awesome.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="9" selection-start="1338" selection-end="1338" vertical-scroll-proportion="0.0" />
@@ -770,6 +772,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shared/_navigation.html.slim">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="29" selection-start="49" selection-end="49" vertical-scroll-proportion="-0.625">
@@ -777,9 +786,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="26" column="9" selection-start="584" selection-end="584" vertical-scroll-proportion="0.52579033">
           <folding />
         </state>
       </provider>
